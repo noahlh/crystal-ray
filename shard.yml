@@ -1,0 +1,13 @@
+name: crystal-ray
+version: 0.1.0
+
+authors:
+  - Noah Lehmann-Haupt <nlh@noahlh.com>
+
+targets:
+  crystal-ray:
+    main: src/crystal-ray.cr
+
+crystal: 0.25.1
+
+license: MIT

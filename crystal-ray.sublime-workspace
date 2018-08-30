@@ -1,0 +1,2116 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sca",
+				"scalar"
+			],
+			[
+				"to",
+				"to_tuple"
+			],
+			[
+				"Tupl",
+				"TupleFactory\t(crystal-ray-2.cr)"
+			],
+			[
+				"to_",
+				"to_tuple\t(crystal-ray-2.cr)"
+			],
+			[
+				"Tuple",
+				"TupleFactory"
+			],
+			[
+				"Tup",
+				"TupleFactory"
+			],
+			[
+				"cre",
+				"create_tuple"
+			],
+			[
+				"T",
+				"Tupleable"
+			],
+			[
+				"fitment",
+				"fitmentEventSent"
+			],
+			[
+				"veh",
+				"vehicle_changed"
+			],
+			[
+				"getSel",
+				"getSelectedVehicle〔variable〕"
+			],
+			[
+				"get",
+				"getEventTrack〔function〕"
+			],
+			[
+				"top-ri",
+				"top-rides.js"
+			],
+			[
+				"add",
+				"additionalPhotos"
+			],
+			[
+				"le",
+				"length\t(index.js)"
+			],
+			[
+				"addition",
+				"additional_photos"
+			],
+			[
+				"orig",
+				"origURL"
+			],
+			[
+				"productPri",
+				"productPrimaryPhotoParsedURL"
+			],
+			[
+				"produtPri",
+				"productPrimaryPhoto〔variable〕"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"manufac",
+				"manufacturer_name_slug"
+			],
+			[
+				"border-bot",
+				"border-bottom-right-radius\tproperty"
+			],
+			[
+				"border-bott",
+				"border-bottom-left-radius\tproperty"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"storage",
+				"storageAvailable"
+			],
+			[
+				"dis",
+				"discount_dollars\t(data-maps.js)"
+			],
+			[
+				"spa",
+				"space-between\tjustify-content"
+			],
+			[
+				"jus",
+				"justify-content\tproperty"
+			],
+			[
+				"border-botto",
+				"border-bottom-right-radius\tproperty"
+			],
+			[
+				"margin-",
+				"margin-bottom\tproperty"
+			],
+			[
+				"initi",
+				"initializeGAPageView\t(segment.js)"
+			],
+			[
+				"initial",
+				"initializePageView\t(segment.js)"
+			],
+			[
+				"Sess",
+				"SessionController"
+			],
+			[
+				"bcrypt",
+				"bcrypt_password"
+			],
+			[
+				"align-",
+				"align-items\tproperty"
+			],
+			[
+				"proce",
+				"processedModels"
+			],
+			[
+				"processed",
+				"processedFamilies"
+			],
+			[
+				"table",
+				"table-cell\tdisplay"
+			],
+			[
+				"select",
+				"selectedMake"
+			],
+			[
+				"webkit",
+				"-webkit-appearance: 〔property〕"
+			],
+			[
+				"vehicle",
+				"vehicletype\t(vehicle_type.cr)"
+			],
+			[
+				"base_",
+				"base_vehicle\t(home_controller.cr)"
+			],
+			[
+				"last",
+				"last_name"
+			],
+			[
+				"face",
+				"facebook_access_token"
+			],
+			[
+				"v2",
+				"v2a_navbar_track_click"
+			],
+			[
+				"plur",
+				"pluralizeVehicleName"
+			],
+			[
+				"vehic",
+				"vehicle_params〔variable〕"
+			],
+			[
+				"epc_",
+				"epc_datapoint"
+			],
+			[
+				"put",
+				"put_file_from_glob\t(json_cache.rb)"
+			],
+			[
+				"merchan",
+				"merchant_domains"
+			],
+			[
+				"roo",
+				"root_domain"
+			],
+			[
+				"Domain",
+				"DomainClassifier.instance.classify"
+			],
+			[
+				"mer",
+				"merchant_id"
+			],
+			[
+				"write_",
+				"write_file\t(epc_loader.rb)"
+			],
+			[
+				"lo",
+				"loud_log"
+			],
+			[
+				"epc_in",
+				"epc_in_json"
+			],
+			[
+				"local",
+				"local_file_path"
+			],
+			[
+				"dir",
+				"dir_name"
+			],
+			[
+				"loc",
+				"local_file_path"
+			],
+			[
+				"app",
+				"application"
+			],
+			[
+				"epc",
+				"epc_request"
+			],
+			[
+				"as",
+				"asterisk-15.2.0"
+			],
+			[
+				"asterisk",
+				"asterisk-14-current.tar.gz"
+			],
+			[
+				"sav",
+				"saved_proc_2"
+			],
+			[
+				"email",
+				"emailSanitizeOptions"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"Back",
+				"Back-End"
+			],
+			[
+				"san",
+				"sanitizedEmail"
+			],
+			[
+				"csrf",
+				"csrfToken"
+			],
+			[
+				"getTime",
+				"getTimezoneOffset〔function〕"
+			],
+			[
+				"vel",
+				"velocity.ui"
+			],
+			[
+				"Vel",
+				"VelocityUI"
+			],
+			[
+				"web",
+				"webpackChangeHandler〔function〕"
+			],
+			[
+				"chec",
+				"check-availability\t(app.js)"
+			],
+			[
+				"check",
+				"checkDemoAvailability"
+			],
+			[
+				"text",
+				"text-decoration\t(scalyr_visual_email.html)"
+			],
+			[
+				"retu",
+				"returnUrl\t(app.js)"
+			],
+			[
+				"track",
+				"trackAndRedirect"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"session",
+				"session_ctx.client_email"
+			],
+			[
+				"user",
+				"userlikeTrackingEvent\t(userlike-scalyr.js)"
+			],
+			[
+				"event",
+				"event_name"
+			],
+			[
+				"clien",
+				"client_email"
+			],
+			[
+				"modal",
+				"modalForm"
+			],
+			[
+				"pa",
+				"paths"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"ghost",
+				"ghostServer"
+			],
+			[
+				"ghos",
+				"ghostServer"
+			],
+			[
+				"sess",
+				"sessionId"
+			],
+			[
+				"red",
+				"redactedBody"
+			],
+			[
+				"redac",
+				"redactedForm"
+			],
+			[
+				"message",
+				"messageType"
+			],
+			[
+				"scalyr",
+				"scalyrRes"
+			],
+			[
+				"send",
+				"sendStatus"
+			],
+			[
+				"node",
+				"nodeRes"
+			],
+			[
+				"reset",
+				"resetModal"
+			],
+			[
+				"mess",
+				"messageType"
+			],
+			[
+				"show",
+				"showModal"
+			],
+			[
+				"mod",
+				"modalForm"
+			],
+			[
+				"seg",
+				"segment_api_key"
+			],
+			[
+				"env",
+				"envConfig"
+			],
+			[
+				"segment",
+				"segment_api_key\t(env-development.json)"
+			],
+			[
+				"sub",
+				"submitDisabled"
+			],
+			[
+				"error",
+				"errorMsg"
+			],
+			[
+				"err",
+				"errorMsg"
+			],
+			[
+				"scal",
+				"scalyrRes"
+			],
+			[
+				"server",
+				"serverAuth"
+			],
+			[
+				"gr",
+				"greyscale(color)"
+			],
+			[
+				"hide",
+				"hideMenu\t(app.js)"
+			],
+			[
+				"hid",
+				"hideMenu"
+			],
+			[
+				"displa",
+				"displayMenu"
+			],
+			[
+				"display",
+				"displayMenu\t(app.js)"
+			],
+			[
+				"sho",
+				"shouldDisplayMenu"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"letter",
+				"letter-spacing"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"re",
+				"reallydarkgray"
+			],
+			[
+				"brow",
+				"browserSync"
+			],
+			[
+				"bro",
+				"browserSync"
+			],
+			[
+				"init",
+				"init_shopify"
+			],
+			[
+				"remote",
+				"remote_customer"
+			],
+			[
+				"Update",
+				"UpdateRemoteCustomerOnShopify"
+			],
+			[
+				"shopify_",
+				"shopify_profile_id"
+			],
+			[
+				"shopify",
+				"shopify_profile_id"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/crystal-ray.cr",
+			"settings":
+			{
+				"buffer_size": 67,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/crystal-ray/core/vector.cr",
+			"settings":
+			{
+				"buffer_size": 562,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/crystal-ray/core/tuple.cr",
+			"settings":
+			{
+				"buffer_size": 359,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/crystal-ray/support/tupleable.cr",
+			"settings":
+			{
+				"buffer_size": 729,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "struct Color\n  getter red, green, blue\n  \nend\n",
+			"file": "src/crystal-ray/core/color.cr",
+			"file_size": 17,
+			"file_write_time": 131800563796816328,
+			"settings":
+			{
+				"buffer_size": 46,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/crystal-ray_spec.cr",
+			"settings":
+			{
+				"buffer_size": 67,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/core/vector_spec.cr",
+			"settings":
+			{
+				"buffer_size": 1669,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/core/color_spec.cr",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Ruby/Ruby.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Ruby.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Ruby/Ruby.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"scop",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"pret",
+				"JsPrettier: Format Code"
+			],
+			[
+				"colo",
+				"Color Scheme Editor: Edit current color scheme"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"them",
+				"Themr: List themes"
+			],
+			[
+				"th",
+				"Themr: List themes"
+			],
+			[
+				"jspre",
+				"JsPrettier: Format Code"
+			],
+			[
+				"prett",
+				"JsPrettier: Format Code"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"t",
+				"Themr: List themes"
+			],
+			[
+				"themr",
+				"Themr: List themes"
+			],
+			[
+				"word",
+				"LaTeXWordCount: Word Count"
+			],
+			[
+				"ht",
+				"HTMLPrettify"
+			],
+			[
+				"pretti",
+				"HTMLPrettify"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"pacl",
+				"Package Control: List Packages"
+			],
+			[
+				"color",
+				"Color Scheme Editor: Edit current color scheme"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"coloe",
+				"Color Scheme Editor: Edit current color scheme"
+			],
+			[
+				"scope",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"the",
+				"Themr: Next theme"
+			],
+			[
+				"syn py",
+				"Set Syntax: Python"
+			],
+			[
+				"thrn",
+				"Themr: Next theme"
+			],
+			[
+				"thrm",
+				"Themr: Next theme"
+			],
+			[
+				"inden",
+				"Indent XML"
+			],
+			[
+				"coff",
+				"Coffee: Toggle Watch Mode"
+			],
+			[
+				"snip test",
+				"Snippet: def test_ .. end"
+			],
+			[
+				"key",
+				"FindKeyConflicts: (Direct) Conflicts to Buffer"
+			],
+			[
+				"find",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"model",
+				"Snippet: Active Record model"
+			],
+			[
+				"package control",
+				"Package Control: Add Repository"
+			],
+			[
+				"coffee",
+				"Coffee: Toggle Watch Mode"
+			],
+			[
+				"syntax ruby",
+				"Set Syntax: Ruby Slim"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Discover Packages"
+			],
+			[
+				"package con",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"web",
+				"Web Inspector"
+			],
+			[
+				"Snippet: num",
+				"Snippet: include Enumerable .."
+			],
+			[
+				"upda",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"theme",
+				"Themr: Default"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"styl",
+				"Set Syntax: Stylus"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"disc",
+				"Package Control: Discover Packages"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"json",
+				"z:AAAPackageDev: JSON to Property List"
+			],
+			[
+				"pl",
+				"z:AAAPackageDev: Property List to JSON"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"linter",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"sublime",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"subli",
+				"SublimeLinter: Lint Current File"
+			],
+			[
+				"nc",
+				"ColorSchemeSelector: Next Color Scheme"
+			],
+			[
+				"ncs",
+				"ColorSchemeSelector: Next Color Scheme"
+			],
+			[
+				"Them",
+				"Themr: Soda Dark"
+			]
+		],
+		"width": 482.0
+	},
+	"console":
+	{
+		"height": 607.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/nlh/Dropbox/Programming/Crystal/crystal-ray",
+		"/Users/nlh/Dropbox/Programming/Crystal/crystal-ray/src",
+		"/Users/nlh/Dropbox/Programming/Crystal/crystal-ray/src/crystal-ray",
+		"/Users/nlh/Dropbox/Programming/Crystal/crystal-ray/src/crystal-ray/core",
+		"/Users/nlh/Dropbox/Programming/Crystal/crystal-ray/src/crystal-ray/support",
+		"/Users/nlh/Dropbox/Programming/Crystal/crystal-ray/test",
+		"/Users/nlh/Dropbox/Programming/Crystal/crystal-ray/test/core"
+	],
+	"file_history":
+	[
+		"/Users/nlh/Dropbox/Programming/Crystal/crystal-ray/spec/core/vector_spec.cr",
+		"/Users/nlh/Dropbox/Programming/Crystal/crystal-ray/spec/core/point_vector_spec.cr",
+		"/Users/nlh/Dropbox/Programming/Crystal/crystal-ray/spec/support/tupleable_spec.cr",
+		"/Users/nlh/Dropbox/Programming/Crystal/crystal-ray/spec/core/point_spec.cr",
+		"/Users/nlh/Dropbox/Programming/Crystal/crystal-ray/src/crystal-ray.cr",
+		"/Users/nlh/Dropbox/Programming/Crystal/crystal-ray/src/crystal-ray/core/vector.cr",
+		"/Users/nlh/Dropbox/Programming/Crystal/crystal-ray/src/crystal-ray/core/tuple.cr",
+		"/Users/nlh/Dropbox/Programming/Crystal/crystal-ray/src/crystal-ray/core/point.cr",
+		"/Users/nlh/Dropbox/Programming/Crystal/crystal-ray/src/crystal-ray/core/tupleable.cr",
+		"/Users/nlh/Dropbox/Programming/Crystal/crystal-ray/spec/core/math_spec.cr",
+		"/Users/nlh/Dropbox/Programming/Crystal/crystal-ray/src/crystal-ray/math.cr",
+		"/Users/nlh/Dropbox/Programming/Crystal/crystal-ray/spec/core/tuple_spec.cr",
+		"/Users/nlh/Dropbox/Programming/Crystal/crystal-ray/spec/spec_helper.cr",
+		"/Users/nlh/Dropbox/Programming/Crystal/crystal-ray/spec/core/structured_tuple_spec.cr",
+		"/Users/nlh/Dropbox/Programming/Crystal/crystal-ray/spec/core/tuple_factory_spec.cr",
+		"/Users/nlh/Dropbox/Programming/Crystal/crystal-ray/spec/core/ray_tupleable_spec.cr",
+		"/Users/nlh/Dropbox/Programming/Crystal/crystal-ray/spec/crystal-ray_spec.cr",
+		"/Users/nlh/Dropbox/Programming/Crystal/tuples.cr",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Services/live-chat.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Product/index.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Product/components/will-fit-panel.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Services/thin-garage.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Services/segment.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Components/chat-box/chatBox.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Components/head/head.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Components/breadcrumb/breadcrumb.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Catalog/index.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Catalog/components/top-rides/top-rides.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/package.json",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Product/components/product-structured-data.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Product/components/productImages.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Components/chat-box/chatBox.css",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Services/index.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Services/screen-recording.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Product/index.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Product/components/product-structured-data.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Services/noahlytics.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Components/breadcrumb/selected-vehicle-pill.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Components/breadcrumb/breadcrumb.css",
+		"/Users/nlh/Downloads/DataExport (2).json",
+		"/Users/nlh/Downloads/DataExport (1).json",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Product/components/chatBox.css",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Product/components/chatBox.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Product/components/guaranteeBox.css",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Product/components/guaranteeBox.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Product/styles.css",
+		"/Users/nlh/Downloads/qualityxxhdpi.svg",
+		"/Users/nlh/Downloads/pricexxhdpi.svg",
+		"/Users/nlh/Downloads/freeshipxxhdpi.svg",
+		"/Users/nlh/Downloads/fitmentxxhdpi.svg",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Catalog/components/brand-description/brand-description.js",
+		"/Users/nlh/Downloads/chatxxhdpi.svg",
+		"/Users/nlh/Downloads/money.svg",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Catalog/components/products/products.css",
+		"/Users/nlh/Downloads/emailxxhdpi.svg",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Icons/call-icon.svg",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Components/product-popup/components/share.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/vehicle-selector/index.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Product/components/will-fit-panel.css",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Icons/pencil.svg",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Icons/test.css",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Icons/guarantee-fit.svg",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Components/navbar/components/icons-menu/navbar-icons-menu.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Components/navbar/components/cart/cart.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Product/components/vehicleSelector.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Services/fullstory.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Services/live-chat.css",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Product/components/will-fit-panel.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/vehicle-selector/node_modules/pug/test/__snapshots__/pug.test.js.snap",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Services/data-maps.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Catalog/components/products/products.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Vehicle/components/products.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Catalog/components/brand-description/brand-description.css",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Catalog/components/all-brands/all-brands.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Catalog/index.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Catalog/components/shop-category/shop-category.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Catalog/components/horizontal-scroll-selector/horizontal-scroll-selector.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Catalog/components/shop-brand/shop-brand.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Product/components/product-user-defined-data.css",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Product/components/product-user-defined-data.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Catalog/components/additional-assets/additional-assets.css",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Product/components/vehicleSelector.css",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Product/components/productImages.css",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Components/navbar/components/icons-menu/navbar-icons-menu.css",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Components/navbar/navbar.css",
+		"/Users/nlh/Dropbox/Programming/asterisk-docker/etc-asterisk-15/extensions.conf",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Components/onboarding-lite/onboarding-lite.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Components/navbar/navbar.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Auth/Login/index.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Auth/Signup/index.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Catalog/components/top-rides/top-rides.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Components/vehicle-popup/vehicle-popup.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Components/modal/modal.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/client/v2a/common/navbar/navbar.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/API/node_modules/fsevents/node_modules/punycode/README.md",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Catalog/components/shop-category/shop-category.css",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Catalog/components/shop-make/shop-make.css",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Catalog/components/horizontal-scroll-selector/horizontal-scroll-selector.css",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Catalog/components/shop-brand/shop-brand.css",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Components/navbar/components/notifications/notifications.css",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Catalog/components/header/header.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Catalog/components/header/header.css",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Catalog/components/browse-tags/browse-tags.css",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Catalog/components/top-rides/top-rides.css",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Catalog/components/shop-make/shop-make.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/wwfamilygen/src/views/vehicle/index.slang",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/wwfamilygen/config/routes.cr",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/wwfamilygen/src/controllers/session_controller.cr",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/wwfamilygen/src/views/vehicle/make.slang",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/wwfamilygen/src/views/components/model-table.vue",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/wwfamilygen/spec/models/user_spec.cr",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/wwfamilygen/config/application.cr",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/wwfamilygen/src/pipes/authenticate.cr",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/wwfamilygen/src/views/session/new.slang",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/wwfamilygen/src/models/user.cr",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/wwfamilygen/spec/spec_helper.cr",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/wwfamilygen/config/environments/test.yml",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/wwfamilygen/db/migrations/20180524_create_user.sql",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Catalog/components/vehicle-selector/vehicle-selector.css",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Pages/Shop/Catalog/components/vehicle-selector/vehicle-selector.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/WebApp/app/Components/vehicle-selector/vehicle-selector.js",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/vehicle-selector/vehicle-selector.vue",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/wwfamilygen/Dockerfile.dev",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/wwfamilygen/Dockerfile.prod",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/wwfamilygen/src/models/family.cr",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/wwfamilygen/docker-compose.prod.yml",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/wwfamilygen/docker-compose.dev.yml",
+		"/Users/nlh/Dropbox/Freelancing/WheelWell/src/wwfamilygen/.dockerignore"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"Float64"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/crystal-ray.cr",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 67,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								67
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"color_helper.box_height": 15,
+							"color_helper.color_scheme": "Packages/User/Material-Theme.tmTheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".cr",
+								"current_syntax": "Crystal/Crystal",
+								"enabled": false,
+								"last_updated": 1535496772.99
+							},
+							"syntax": "Packages/Crystal/Crystal.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/crystal-ray/core/vector.cr",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 562,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22,
+								22
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"color_helper.box_height": 15,
+							"color_helper.color_scheme": "Packages/User/Material-Theme.tmTheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".cr",
+								"current_syntax": "Crystal/Crystal",
+								"enabled": false,
+								"last_updated": 1535496772.99
+							},
+							"syntax": "Packages/Crystal/Crystal.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/crystal-ray/core/tuple.cr",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 359,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"color_helper.box_height": 15,
+							"color_helper.color_scheme": "Packages/User/Material-Theme.tmTheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".cr",
+								"current_syntax": "Crystal/Crystal",
+								"enabled": false,
+								"last_updated": 1535496772.99
+							},
+							"syntax": "Packages/Crystal/Crystal.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/crystal-ray/support/tupleable.cr",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 729,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								235,
+								235
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"color_helper.box_height": 15,
+							"color_helper.color_scheme": "Packages/User/Material-Theme.tmTheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".cr",
+								"current_syntax": "Crystal/Crystal",
+								"enabled": false,
+								"last_updated": 1535496772.99
+							},
+							"syntax": "Packages/Crystal/Crystal.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/crystal-ray/core/color.cr",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 46,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								41
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"color_helper.box_height": 15,
+							"color_helper.color_scheme": "Packages/User/Material-Theme.tmTheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".cr",
+								"current_syntax": "Crystal/Crystal",
+								"enabled": false,
+								"last_updated": 1535496772.99
+							},
+							"open_with_edit": true,
+							"syntax": "Packages/Crystal/Crystal.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "test/crystal-ray_spec.cr",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 67,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								67
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"color_helper.box_height": 15,
+							"color_helper.color_scheme": "Packages/User/Material-Theme.tmTheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".cr",
+								"current_syntax": "Crystal/Crystal",
+								"enabled": false,
+								"last_updated": 1535496772.99
+							},
+							"syntax": "Packages/Crystal/Crystal.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "test/core/vector_spec.cr",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1669,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								611,
+								611
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"color_helper.box_height": 15,
+							"color_helper.color_scheme": "Packages/User/Material-Theme.tmTheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".cr",
+								"current_syntax": "Crystal/Crystal",
+								"enabled": false,
+								"last_updated": 1535496772.99
+							},
+							"syntax": "Packages/Crystal/Crystal.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "test/core/color_spec.cr",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"color_helper.box_height": 15,
+							"color_helper.color_scheme": "Packages/User/Material-Theme.tmTheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".cr",
+								"current_syntax": "Crystal/Crystal",
+								"enabled": false,
+								"last_updated": 1535496772.99
+							},
+							"open_with_edit": true,
+							"syntax": "Packages/Crystal/Crystal.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.439394931332,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.aaa_package_dev":
+	{
+		"height": 102.0
+	},
+	"output.exec":
+	{
+		"height": 417.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.scope_viewer":
+	{
+		"height": 102.0
+	},
+	"output.scopehunter.results":
+	{
+		"height": 108.0
+	},
+	"pinned_build_system": "Packages/User/Crystal.sublime-build",
+	"project": "crystal-ray.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"livech",
+				"WebApp/app/Services/live-chat.js"
+			],
+			[
+				"product index",
+				"WebApp/app/Pages/Product/index.js"
+			],
+			[
+				"thin-",
+				"WebApp/app/Services/thin-garage.js"
+			],
+			[
+				"chatBox",
+				"WebApp/app/Components/chat-box/chatBox.js"
+			],
+			[
+				"head.js",
+				"WebApp/app/Components/head/head.js"
+			],
+			[
+				"will-fit-pane",
+				"WebApp/app/Pages/Product/components/will-fit-panel.js"
+			],
+			[
+				"product stru",
+				"WebApp/app/Pages/Product/components/product-structured-data.js"
+			],
+			[
+				"pages produt index",
+				"WebApp/app/Pages/Product/index.js"
+			],
+			[
+				"product-str",
+				"WebApp/app/Pages/Shop/Product/components/product-structured-data.js"
+			],
+			[
+				"chatbox",
+				"WebApp/app/Components/chat-box/chatBox.css"
+			],
+			[
+				"screen",
+				"WebApp/app/Services/screen-recording.js"
+			],
+			[
+				"screen-",
+				"WebApp/app/Services/screen-recording.js"
+			],
+			[
+				"product styles css",
+				"WebApp/app/Pages/Shop/Product/styles.css"
+			],
+			[
+				"guaranteebox",
+				"WebApp/app/Pages/Shop/Product/components/guaranteeBox.js"
+			],
+			[
+				"products index.js",
+				"WebApp/app/Pages/Shop/Product/index.js"
+			],
+			[
+				"brand-des",
+				"WebApp/app/Pages/Shop/Catalog/components/brand-description/brand-description.js"
+			],
+			[
+				"produ",
+				"WebApp/app/Pages/Shop/Catalog/components/products/products.css"
+			],
+			[
+				"live-chat",
+				"WebApp/app/Services/live-chat.js"
+			],
+			[
+				"product index.js",
+				"WebApp/app/Pages/Shop/Product/index.js"
+			],
+			[
+				"guarantee",
+				"WebApp/app/Pages/Shop/Product/components/guaranteeBox.js"
+			],
+			[
+				"products styles",
+				"WebApp/app/Pages/Shop/Product/styles.css"
+			],
+			[
+				"product index.",
+				"WebApp/app/Pages/Shop/Product/index.js"
+			],
+			[
+				"pages shop product index",
+				"WebApp/app/Pages/Shop/Product/index.js"
+			],
+			[
+				"index",
+				"vehicle-selector/index.js"
+			],
+			[
+				"wll-fit",
+				"WebApp/app/Pages/Shop/Product/components/will-fit-panel.css"
+			],
+			[
+				"will-fit",
+				"WebApp/app/Pages/Shop/Product/components/will-fit-panel.js"
+			],
+			[
+				"vehicleSel",
+				"WebApp/app/Pages/Shop/Product/components/vehicleSelector.js"
+			],
+			[
+				"vehicleSe\\",
+				"vehicle-selector/node_modules/pug/test/__snapshots__/pug.test.js.snap"
+			],
+			[
+				"segment",
+				"WebApp/app/Services/segment.js"
+			],
+			[
+				"data-map",
+				"WebApp/app/Services/data-maps.js"
+			],
+			[
+				"products",
+				"WebApp/app/Pages/Shop/Catalog/components/products/products.js"
+			],
+			[
+				"data-ma",
+				"WebApp/app/Services/data-maps.js"
+			],
+			[
+				"horizon",
+				"WebApp/app/Pages/Shop/Catalog/components/horizontal-scroll-selector/horizontal-scroll-selector.js"
+			],
+			[
+				"shop-cate",
+				"WebApp/app/Pages/Shop/Catalog/components/shop-category/shop-category.js"
+			],
+			[
+				"shop-brand",
+				"WebApp/app/Pages/Shop/Catalog/components/shop-brand/shop-brand.js"
+			],
+			[
+				"all-brands",
+				"WebApp/app/Pages/Shop/Catalog/components/all-brands/all-brands.js"
+			],
+			[
+				"catalog index",
+				"WebApp/app/Pages/Shop/Catalog/index.js"
+			],
+			[
+				"brand-de",
+				"WebApp/app/Pages/Shop/Catalog/components/brand-description/brand-description.css"
+			],
+			[
+				"breadc",
+				"WebApp/app/Components/breadcrumb/breadcrumb.css"
+			],
+			[
+				"product-user-def",
+				"WebApp/app/Pages/Shop/Product/components/product-user-defined-data.js"
+			],
+			[
+				"will-fit-panel",
+				"WebApp/app/Pages/Shop/Product/components/will-fit-panel.css"
+			],
+			[
+				"guaranteebo",
+				"WebApp/app/Pages/Shop/Product/components/guaranteeBox.css"
+			],
+			[
+				"chatbox.js",
+				"WebApp/app/Pages/Shop/Product/components/chatBox.js"
+			],
+			[
+				"navbar.",
+				"WebApp/app/Components/navbar/navbar.css"
+			],
+			[
+				"navbar-icon",
+				"WebApp/app/Components/navbar/components/icons-menu/navbar-icons-menu.js"
+			],
+			[
+				"segment.js",
+				"WebApp/app/Services/segment.js"
+			],
+			[
+				"breadcru",
+				"WebApp/app/Components/breadcrumb/breadcrumb.js"
+			],
+			[
+				"vehicle-popu",
+				"WebApp/app/Components/vehicle-popup/vehicle-popup.js"
+			],
+			[
+				"shop-make",
+				"WebApp/app/Pages/Shop/Catalog/components/shop-make/shop-make.css"
+			],
+			[
+				"top-rides",
+				"WebApp/app/Pages/Shop/Catalog/components/top-rides/top-rides.css"
+			],
+			[
+				"routes",
+				"wwfamilygen/config/routes.cr"
+			],
+			[
+				"vehicle-selector.css",
+				"WebApp/app/Pages/Shop/Catalog/components/vehicle-selector/vehicle-selector.css"
+			],
+			[
+				"vehicle-selector.js",
+				"WebApp/app/Components/vehicle-selector/vehicle-selector.js"
+			],
+			[
+				"header.css",
+				"WebApp/app/Pages/Shop/Catalog/components/header/header.css"
+			],
+			[
+				"sub-category",
+				"WebApp/app/Pages/Shop/Catalog/components/shop-subcategory/shop-subcategory.js"
+			],
+			[
+				"nav",
+				"WebApp/app/Components/navbar/navbar.js"
+			],
+			[
+				"catalogindex",
+				"WebApp/app/Pages/Shop/Catalog/index.js"
+			],
+			[
+				"catalog/index.js",
+				"WebApp/app/Pages/Shop/Catalog/index.js"
+			],
+			[
+				"horion",
+				"WebApp/app/Pages/Shop/Catalog/components/horizontal-scroll-selector/horizontal-scroll-selector.js"
+			],
+			[
+				"products.js",
+				"WebApp/app/Pages/Shop/Catalog/components/products/products.js"
+			],
+			[
+				"pagescompheader.js",
+				"WebApp/app/Pages/Homepage/components/header.js"
+			],
+			[
+				"shar",
+				"wwfamilygen/shard.yml"
+			],
+			[
+				"make.cr",
+				"wwfamilygen/src/models/make.cr"
+			],
+			[
+				"index.slan",
+				"wwfamilygen/src/views/vehicle/index.slang"
+			],
+			[
+				"onboard",
+				"WebApp/app/Components/onboarding-lite/onboarding-lite.js"
+			],
+			[
+				"segme",
+				"WebApp/app/Services/segment.js"
+			],
+			[
+				"navbar",
+				"WebApp/app/Components/navbar/navbar.js"
+			],
+			[
+				"head/",
+				"WebApp/app/Components/head/head.js"
+			],
+			[
+				"onboar",
+				"WebApp/app/Components/onboarding-lite/onboarding-lite.js"
+			],
+			[
+				"contextual",
+				"WebApp/app/Components/tiles/contextual-menu.js"
+			],
+			[
+				"tags",
+				"WebApp/app/Components/tags/tags.js"
+			],
+			[
+				"segmen",
+				"WebApp/app/Services/segment.js"
+			],
+			[
+				"trending",
+				"WebApp/app/Components/trending-tags/trending-tags.js"
+			],
+			[
+				"homepage/",
+				"WebApp/app/Pages/Homepage/index.js"
+			],
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"util",
+				"lib/util.rb"
+			],
+			[
+				"outcl",
+				"lib/tasks/outclicks.rake"
+			],
+			[
+				"job.jade",
+				"views/job.jade"
+			],
+			[
+				"company",
+				"views/company.jade"
+			],
+			[
+				"produc",
+				"views/product.jade"
+			],
+			[
+				"compan",
+				"views/css/app/company.less"
+			],
+			[
+				"com",
+				"views/company.jade"
+			],
+			[
+				"head",
+				"views/includes/header.jade"
+			],
+			[
+				"app",
+				"app.js"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"modal",
+				"views/includes/modal.jade"
+			],
+			[
+				"roo",
+				"views/root.jade"
+			],
+			[
+				"elk",
+				"views/elk-stack-alternative.jade"
+			],
+			[
+				"sumo",
+				"views/sumo-logic-alternative.jade"
+			],
+			[
+				"spl",
+				"views/splunk-alternative.jade"
+			],
+			[
+				"logg",
+				"views/loggly-alternative.jade"
+			],
+			[
+				"cen",
+				"views/centralized-log-management.jade"
+			],
+			[
+				"foot",
+				"views/includes/footer.jade"
+			],
+			[
+				"foo",
+				"views/includes/footer.jade"
+			],
+			[
+				"server-log",
+				"views/server-log-alerts.jade"
+			],
+			[
+				"server",
+				"views/server-monitoring.jade"
+			],
+			[
+				"log",
+				"views/log-aggregation.jade"
+			],
+			[
+				"centr",
+				"views/centralized-log-management.jade"
+			],
+			[
+				"pric",
+				"views/pricing.jade"
+			],
+			[
+				"root",
+				"views/root.jade"
+			],
+			[
+				"prod",
+				"views/product.jade"
+			],
+			[
+				"globa",
+				"views/css/lib/global.less"
+			],
+			[
+				"home",
+				"views/css/app/home.less"
+			],
+			[
+				"comp",
+				"views/company.jade"
+			],
+			[
+				"mod",
+				"views/includes/modal.jade"
+			],
+			[
+				"splu",
+				"views/splunk-alternative.jade"
+			],
+			[
+				"conta",
+				"views/contact.jade"
+			],
+			[
+				"signup",
+				"views/signup.jade"
+			],
+			[
+				"signu",
+				"views/signup.jade"
+			],
+			[
+				"cust",
+				"views/customers.jade"
+			],
+			[
+				"cus",
+				"views/_customer_section.jade"
+			],
+			[
+				"sum",
+				"views/sumo-logic-alternative.jade"
+			],
+			[
+				"alte",
+				"views/css/app/alternative.less"
+			],
+			[
+				"account",
+				"views/account-executive.jade"
+			],
+			[
+				"glob",
+				"views/css/lib/global.less"
+			],
+			[
+				"alter",
+				"views/css/app/alternative.less"
+			],
+			[
+				"glo",
+				"views/css/lib/global.less"
+			],
+			[
+				"custo",
+				"views/customers.jade"
+			],
+			[
+				"color",
+				"views/css/lib/colors.less"
+			],
+			[
+				"compa",
+				"views/company.jade"
+			],
+			[
+				"integra",
+				"views/integration-engineer.jade"
+			],
+			[
+				"online",
+				"views/online-marketing-manager.jade"
+			],
+			[
+				"opt-in",
+				"views/opt-in.jade"
+			],
+			[
+				"opt",
+				"views/opt-out.jade"
+			],
+			[
+				"feedba",
+				"views/feedback.jade"
+			],
+			[
+				"feed",
+				"views/feedback.jade"
+			],
+			[
+				"contact",
+				"views/css/app/contact.less"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 374.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ass",
+				"assign_default_price"
+			],
+			[
+				"product_",
+				"product_price"
+			],
+			[
+				"Sprint",
+				"sprint_session"
+			],
+			[
+				"",
+				"moveTo"
+			],
+			[
+				"posts",
+				"PostsController"
+			]
+		],
+		"width": 363.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 215.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 3
+	}
+}
