@@ -1,3 +1,5 @@
+require "../spec_helper"
+
 describe "adding & subtracting Points and Vectors" do
   describe "#+" do
     it "adds two vectors to result in another vector" do

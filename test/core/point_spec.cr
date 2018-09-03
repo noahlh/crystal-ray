@@ -20,8 +20,4 @@ describe Point do
     a.z.should eq(3.0)
     a.w.should eq(1.0)
   end
-  it "is == a TupleFactory with the same values" do
-    p = Point.new(4.0, -4.0, 3.0)
-    p.should eq(TupleFactory.create(4.0, -4.0, 3.0, 1.0))
-  end
 end

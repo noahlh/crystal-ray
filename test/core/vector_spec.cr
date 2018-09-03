@@ -16,10 +16,6 @@ describe Vector do
     a.z.should eq(3.0)
     a.w.should eq(0.0)
   end
-  it "is == a TupleFactory with the same values" do
-    v = Vector.new(4.0, -4.0, 3.0)
-    v.should eq(TupleFactory.create(4.0, -4.0, 3.0, 0.0))
-  end
   describe "#magnitude" do
     it "calculates the magnitude" do
       Vector.new(1, 0, 0).magnitude.should eq(1)

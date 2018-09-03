@@ -1,38 +1,41 @@
-module RayTupleable
-  getter x, y, z, w
+module Tupleable
+  macro included
+    def +(other)
+      {{ @type }}.new(self.to_tuple + other.to_tuple)
+    end
 
-  def initialize(@x : Float64, @y : Float64, @z : Float64, @w : Float64)
-  end
+    def -(other)
+      {{ @type }}.new(self.to_tuple - other.to_tuple)
+    end
 
-  def to_tuple
-    {@x, @y, @z, @w}
-  end
+    def *(scalar : Float64)
+      {{ @type }}.new(self.to_tuple * scalar)
+    end
 
-  def +(other : RayTupleable)
-    TupleFactory.create(self.to_tuple + other.to_tuple)
-  end
+    def *(other : {{ @type }})
+      {{ @type }}.new(self.to_tuple * other.to_tuple)
+    end
 
-  def -(other : RayTupleable)
-    TupleFactory.create(self.to_tuple - other.to_tuple)
+    def self.new(input : Tuple)
+      {{ @type }}.new(*input)
+    end
   end
 end
 
-class TupleFactory
-  def self.create(x, y, z, w)
-    self.create_tuple(x, y, z, w)
-  end
+module Spacial
+  macro included
+    def self.new(input : Tuple)
+      if input[3] == 1.0
+        Point.new(input[0], input[1], input[2])
+      elsif input[3] == 0.0
+        Vector.new(input[0], input[1], input[2])
+      else
+        input
+      end
+    end
 
-  def self.create(input : Tuple)
-    self.create_tuple(*input)
-  end
-
-  private def self.create_tuple(x, y, z, w)
-    if w == 1.0
-      Point.new(x.to_f, y.to_f, z.to_f)
-    elsif w == 0.0
-      Vector.new(x.to_f, y.to_f, z.to_f)
-    else
-      Tuple.new(x, y, z, w)
+    def to_tuple
+      {x, y, z, w}
     end
   end
 end
