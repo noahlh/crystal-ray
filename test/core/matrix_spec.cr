@@ -27,12 +27,36 @@ describe Matrix do
         {2, 2}
       )
       expect_raises(Exception) do
-        m[3, 3]
+        m[2, 2]
       end
     end
   end
+  describe "#rows" do
+    it "returns the given row of a matrix" do
+      Matrix.new(
+        {1, 1, 1, 1},
+        {2, 2, 2, 2},
+        {3, 3, 3, 3},
+        {4, 4, 4, 4}
+      ).rows[0].should eq({1, 1, 1, 1})
+    end
+  end
+  describe "#cols" do
+    it "returns the columns of a matrix" do
+      Matrix.new(
+        {1, 2, 3},
+        {2, 3, 4},
+        {3, 4, 5},
+        {4, 5, 6}
+      ).cols.should eq({
+        {1, 2, 3, 4},
+        {2, 3, 4, 5},
+        {3, 4, 5, 6},
+      })
+    end
+  end
   describe "size" do
-    it "should calculate the size of a square matrix" do
+    it "should calculate the size (num rows) of a square matrix" do
       Matrix.new(
         {1, 2, 3, 4},
         {5, 6, 7, 8},

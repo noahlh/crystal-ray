@@ -20,7 +20,7 @@ struct Vector
   end
 
   def dot(other : Vector)
-    (@x * other.x) + (@y * other.y) + (@z * other.z)
+    self.to_tuple.dot(other.to_tuple)
   end
 
   def cross(other : Vector)
