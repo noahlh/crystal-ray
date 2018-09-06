@@ -65,7 +65,12 @@ describe Matrix do
       ).size.should eq(4)
     end
   end
-  describe "*" do
+  describe "to_tuple" do
+    it "should convert a 1xn matrix to a tuple" do
+      Matrix.new({1}, {2}, {3}, {4}).to_tuple.should eq({1, 2, 3, 4})
+    end
+  end
+  describe "* (Matrix)" do
     it "should multiple two matrices together" do
       m1 = Matrix.new(
         {1, 2, 3, 4},
@@ -84,6 +89,17 @@ describe Matrix do
         {31, 64, 128, 256},
         {38, 79, 158, 316},
         {45, 94, 188, 376}))
+    end
+  end
+  describe "* (Tuple)" do
+    it "should multiple a matrix by a tuple and return a tuple" do
+      mt = Matrix.new(
+        {1, 2, 3, 4},
+        {2, 4, 4, 2},
+        {8, 6, 4, 1},
+        {0, 0, 0, 1}
+      ) * {1, 2, 3, 1}
+      mt.should eq({18, 24, 33, 1})
     end
   end
 end

@@ -25,6 +25,10 @@ struct Matrix(*T)
     num_rows
   end
 
+  def to_tuple
+    @data.map { |el| el[0] }
+  end
+
   def *(b : Matrix)
     Matrix.new(
       *self.rows.map do |a_row|
@@ -35,11 +39,15 @@ struct Matrix(*T)
     )
   end
 
+  def *(b : Tuple)
+    (self * Matrix.new(*b.map { |el| {el} })).to_tuple
+  end
+
   private def num_rows
     @data.size
   end
 
-  def num_cols
+  private def num_cols
     @data[0].size
   end
 
