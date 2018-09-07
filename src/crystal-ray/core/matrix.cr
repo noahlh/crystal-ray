@@ -29,6 +29,10 @@ struct Matrix(*T)
     @data.map { |el| el[0] }
   end
 
+  def transpose
+    Matrix.new(*cols)
+  end
+
   def *(b : Matrix)
     Matrix.new(
       *self.rows.map do |a_row|
@@ -41,6 +45,27 @@ struct Matrix(*T)
 
   def *(b : Tuple)
     (self * Matrix.new(*b.map { |el| {el} })).to_tuple
+  end
+
+  def determinant
+    (@data[0][0] * @data[1][1]) - (@data[1][0] * @data[0][1])
+  end
+
+  def submatrix(row_to_del, col_to_del)
+    {% begin %}
+      {% current_size = @type.type_vars.first.size %}
+      rows_to_keep = (0..{{current_size - 1}}).reject { |i| i == row_to_del }
+      cols_to_keep = (0..{{current_size - 1}}).reject { |i| i == col_to_del }
+      Matrix.new(
+        {% for r in (0...(current_size - 1)) %}
+          {
+            {% for c in (0...(current_size - 1)) %}
+              @data[rows_to_keep[{{r}}]][cols_to_keep[{{c}}]],
+            {% end %}
+          },
+        {% end %}
+      )
+    {% end %}
   end
 
   private def num_rows

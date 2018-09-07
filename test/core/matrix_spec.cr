@@ -90,6 +90,21 @@ describe Matrix do
         {38, 79, 158, 316},
         {45, 94, 188, 376}))
     end
+    it "should equal itself when multiplying by the identity matrix" do
+      m1 = Matrix.new(
+        {0, 1, 2, 4},
+        {1, 2, 4, 8},
+        {2, 4, 8, 16},
+        {4, 8, 16, 32}
+      )
+      identity = Matrix.new(
+        {1, 0, 0, 0},
+        {0, 1, 0, 0},
+        {0, 0, 1, 0},
+        {0, 0, 0, 1}
+      )
+      (m1 * identity).should eq(m1)
+    end
   end
   describe "* (Tuple)" do
     it "should multiple a matrix by a tuple and return a tuple" do
@@ -100,6 +115,59 @@ describe Matrix do
         {0, 0, 0, 1}
       ) * {1, 2, 3, 1}
       mt.should eq({18, 24, 33, 1})
+    end
+  end
+  describe "transpose" do
+    it "should transpose a matrix's rows and columns" do
+      Matrix.new(
+        {0, 9, 3, 0},
+        {9, 8, 0, 8},
+        {1, 8, 5, 3},
+        {0, 0, 5, 8}
+      ).transpose.should eq(
+        Matrix.new(
+          {0, 9, 1, 0},
+          {9, 8, 8, 0},
+          {3, 0, 5, 5},
+          {0, 8, 3, 8}
+        )
+      )
+    end
+  end
+  describe "determinant" do
+    it "calculates the determinant for a 2x2 matrix" do
+      Matrix.new(
+        {1, 5},
+        {-3, 2}
+      ).determinant.should eq(17)
+    end
+  end
+  describe "submatrix" do
+    it "should extract a 3x3 matrix from a 4x4" do
+      Matrix.new(
+        {1, 2, 3, 4},
+        {5, 6, 7, 8},
+        {9, 10, 11, 12},
+        {13, 14, 15, 16}
+      ).submatrix(1, 2).should eq(
+        Matrix.new(
+          {1, 2, 4},
+          {9, 10, 12},
+          {13, 14, 16}
+        )
+      )
+    end
+    it "should extract a 2x2 matrix from a 3x3" do
+      Matrix.new(
+        {1, 2, 3},
+        {4, 5, 6},
+        {7, 8, 9}
+      ).submatrix(1, 2).should eq(
+        Matrix.new(
+          {1, 2},
+          {7, 8}
+        )
+      )
     end
   end
 end
