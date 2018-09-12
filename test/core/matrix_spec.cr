@@ -130,6 +130,41 @@ describe Matrix do
       mt.should eq({18, 24, 33, 1})
     end
   end
+  describe "/ (scalar)" do
+    it "divides each element of a matrix by a scalar" do
+      (Matrix.new(
+        {1, 2, 3, 4},
+        {5, 6, 7, 8},
+        {9, 10, 11, 12},
+        {13, 14, 15, 16}
+      ) / 4).should eq(
+        Matrix.new(
+          {0.25, 0.5, 0.75, 1.0},
+          {1.25, 1.5, 1.75, 2.0},
+          {2.25, 2.5, 2.75, 3.0},
+          {3.25, 3.5, 3.75, 4.0}
+        ))
+    end
+  end
+  describe "-" do
+    it "should subtract a scalar from each element of a matrix" do
+      (Matrix.new(
+        {4, 4, 4},
+        {3, 3, 3},
+        {2, 2, 2}
+      ) - Matrix.new(
+        {1, 1, 1},
+        {1, 1, 1},
+        {1, 1, 1}
+      )).should eq(
+        Matrix.new(
+          {3, 3, 3},
+          {2, 2, 2},
+          {1, 1, 1}
+        )
+      )
+    end
+  end
   describe "transpose" do
     it "should transpose a matrix's rows and columns" do
       Matrix.new(
@@ -145,6 +180,24 @@ describe Matrix do
           {0, 8, 3, 8}
         )
       )
+    end
+  end
+  describe "#minor" do
+    it "should calculate the minor of a matrix with row/col eliminated" do
+      Matrix.new(
+        {1, 4, 7},
+        {3, 0, 5},
+        {-1, 9, 11}
+      ).minor(1, 2).should eq(13)
+    end
+  end
+  describe "cofactor" do
+    it "should calc the cofactor of a matrix with given row/col elimination" do
+      Matrix.new(
+        {1, 4, 7},
+        {3, 0, 5},
+        {-1, 9, 11}
+      ).cofactor(1, 2).should eq(-13)
     end
   end
   describe "determinant" do
@@ -203,13 +256,53 @@ describe Matrix do
       )
     end
   end
-  # describe "minor" do
-  #   it "calculates the minor (determinant of a submatrix) of the matrix" do
-  #     Matrix.new(
-  #       {3, 5, 0},
-  #       {2, -1, -7},
-  #       {6, -1, 5}
-  #     ).minor(1, 0).should eq(25)
-  #   end
-  # end
+  describe "cofactor matrix" do
+    it "calcuates the cofactor matrix of a given matrix" do
+      Matrix.new(
+        {-5, 2, 6, -8},
+        {1, -5, 1, 8},
+        {7, 7, -6, -7},
+        {1, -3, 7, 4}
+      ).cofactor_matrix.should eq(
+        Matrix.new(
+          {116, -430, -42, -278},
+          {240, -775, -119, -433},
+          {128, -236, -28, -160},
+          {-24, 277, 105, 163}
+        )
+      )
+    end
+  end
+  describe "invertible?" do
+    it "uses the determinant to calculate whether a matrix is invertible" do
+      Matrix.new(
+        {6, 4, 4, 4},
+        {5, 5, 7, 6},
+        {4, -9, 3, -7},
+        {9, 1, 7, -6}
+      ).invertible?.should be_true
+      Matrix.new(
+        {-4, 2, -2, -3},
+        {9, 6, 2, 6},
+        {0, -5, 1, -5},
+        {0, 0, 0, 0}
+      ).invertible?.should be_false
+    end
+  end
+  describe "inverse" do
+    it "calculates the inverse of a matrix" do
+      Matrix.new(
+        {8, -5, 9, 2},
+        {7, 5, 6, 1},
+        {-6, 0, 9, 6},
+        {-3, 0, -9, -4}
+      ).inverse.should be_close(
+        Matrix.new(
+          {-0.15385, -0.15385, -0.28205, -0.53846},
+          {-0.07692, 0.12308, 0.02564, 0.03077},
+          {0.35897, 0.35897, 0.43590, 0.92308},
+          {-0.69231, -0.69231, -0.76923, -1.92308}
+        ), 0.001)
+    end
+  end
 end
