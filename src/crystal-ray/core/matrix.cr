@@ -48,7 +48,22 @@ struct Matrix(*T)
   end
 
   def determinant
-    (@data[0][0] * @data[1][1]) - (@data[1][0] * @data[0][1])
+    data = @data
+    first_row = data.first?
+
+    if (data.size == 0)
+      0
+    elsif (data.size == 1)
+      (first_row) ? first_row[0] : 0
+    else
+      if first_row
+        (0...num_cols).reduce(0) do |acc, i|
+          acc + ((1 | -(i & 1)) * first_row[i] * submatrix(0, i).determinant)
+        end
+      else
+        0
+      end
+    end
   end
 
   def submatrix(row_to_del, col_to_del)
@@ -68,12 +83,19 @@ struct Matrix(*T)
     {% end %}
   end
 
-  private def num_rows
+  def minor(row, col)
+  end
+
+  def square?
+    num_rows == num_cols
+  end
+
+  def num_rows
     @data.size
   end
 
-  private def num_cols
-    @data[0].size
+  def num_cols
+    (first_row = @data.first?) ? first_row.size : 0
   end
 
   private def out_of_bounds?(x, y)
