@@ -1,7 +1,7 @@
 struct Tuple
-  # def +(other : Tuple)
-  #   self.map_with_index { |el, idx| el + other[idx] }
-  # end
+  def +(other : Tuple)
+    self.map_with_index { |el, idx| el + other[idx] }
+  end
 
   def -(other : Tuple)
     self.map_with_index { |el, idx| el - other[idx] }
