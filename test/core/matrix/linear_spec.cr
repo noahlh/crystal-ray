@@ -1,6 +1,6 @@
 require "../../spec_helper"
 
-describe Matrix do
+describe Matrix::Linear do
   describe "submatrix" do
     it "should extract a 3x3 matrix from a 4x4" do
       Matrix.new(

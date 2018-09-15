@@ -37,12 +37,27 @@ describe Tupleable do
       (t1 - t2).should eq(TestTuple.new(2, 5))
     end
   end
+  describe "map" do
+    it "maps an existing object's items to a new object" do
+      t1 = TestTuple.new(5, 7)
+      t2 = t1.map { |el| el + 1 }
+      t2.should eq(TestTuple.new(6, 8))
+    end
+  end
 end
 
 describe Spacial do
   describe "#from_tuple" do
     it "should create a point when w = 1" do
       TestSpacial.new({1.0, 1.0, 1.0, 1.0}).should eq(Point.new(1, 1, 1))
+    end
+    it "should create a vector when w = 0" do
+      TestSpacial.new({1.0, 1.0, 1.0, 0.0}).should eq(Vector.new(1, 1, 1))
+    end
+    it "should throw an exception when w > 1" do
+      expect_raises(Exception) do
+        TestSpacial.new({1.0, 1.0, 1.0, 2.0})
+      end
     end
   end
   describe "#to_tuple" do

@@ -1,6 +1,6 @@
 require "../../spec_helper"
 
-describe Matrix do
+describe Matrix::Stats do
   describe "size" do
     it "should calculate the size (num rows) of a square matrix" do
       Matrix.new(

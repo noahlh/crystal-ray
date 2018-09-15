@@ -1,6 +1,6 @@
 require "../../spec_helper"
 
-describe Matrix do
+describe Matrix::Access do
   describe "[]" do
     it "accesses an element of the matrix" do
       m = Matrix.new(

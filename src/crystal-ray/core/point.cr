@@ -3,6 +3,7 @@ require "../support/**"
 struct Point
   include Tupleable
   include Spacial
+  include Transformable
 
   getter x, y, z, w
 

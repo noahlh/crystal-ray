@@ -26,22 +26,6 @@ module Matrix
       map_with_index { |el, el_idx, r_idx| el - b[r_idx, el_idx] }
     end
 
-    def <=(scalar)
-      map { |el| el <= scalar }
-    end
-
-    def <(scalar)
-      map { |el| el < scalar }
-    end
-
-    def >(scalar)
-      map { |el| el > scalar }
-    end
-
-    def >=(scalar)
-      map { |el| el >= scalar }
-    end
-
     def abs
       map { |el| el.abs }
     end

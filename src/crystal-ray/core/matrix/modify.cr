@@ -1,5 +1,6 @@
 module Matrix
-  module Transforms
+  module Modify
+    # TODO:  This only works for 1x1 matrices -- make more generalized!
     def to_tuple
       @data.map { |el| el[0] }
     end
@@ -26,6 +27,14 @@ module Matrix
           end
         end
       )
+    end
+
+    def each
+      rows.each do |r|
+        r.each do |el|
+          yield el
+        end
+      end
     end
   end
 end

@@ -1,6 +1,6 @@
 require "../../spec_helper"
 
-describe Matrix do
+describe Matrix::Operators do
   describe "* (Matrix)" do
     it "should multiple two matrices together" do
       m1 = Matrix.new(

@@ -3,7 +3,7 @@ struct Tuple
     self.map_with_index { |el, idx| el + other[idx] }
   end
 
-  def -(other : Tuple)
+  def -(other : (Tuple | Point | Vector))
     self.map_with_index { |el, idx| el - other[idx] }
   end
 
@@ -29,5 +29,13 @@ struct Tuple
 
   def sum
     self.reduce { |acc, i| acc + i }
+  end
+
+  def abs
+    self.map { |el| el.abs }
+  end
+
+  def <=(scalar)
+    all? { |el| el <= scalar }
   end
 end

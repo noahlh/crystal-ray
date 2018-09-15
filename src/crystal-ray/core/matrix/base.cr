@@ -7,10 +7,11 @@ module Matrix
 
   struct Base(*T)
     include Matrix::Operators
+    include Matrix::Comparisons
     include Matrix::Linear
     include Matrix::Access
     include Matrix::Stats
-    include Matrix::Transforms
+    include Matrix::Modify
 
     @data : *T
 

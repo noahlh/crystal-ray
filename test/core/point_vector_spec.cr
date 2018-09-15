@@ -12,10 +12,12 @@ describe "adding & subtracting Points and Vectors" do
       p = Point.new(1, 1, 1)
       (v + p).should eq(Point.new(2, 2, 2))
     end
-    it "adding two points create a tuple with w == 2" do
+    it "adding two points doesn't make sense so it throws an exception" do
       p1 = Point.new(1, 1, 1)
       p2 = Point.new(1, 1, 1)
-      (p1 + p2).should eq({2, 2, 2, 2})
+      expect_raises(Exception) do
+        (p1 + p2)
+      end
     end
   end
   describe "#-" do

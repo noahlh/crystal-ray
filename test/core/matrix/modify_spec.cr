@@ -1,6 +1,6 @@
 require "../../spec_helper"
 
-describe Matrix do
+describe Matrix::Modify do
   describe "to_tuple" do
     it "should convert a 1xn matrix to a tuple" do
       Matrix.new({1}, {2}, {3}, {4}).to_tuple.should eq({1, 2, 3, 4})
@@ -51,6 +51,17 @@ describe Matrix do
           { {3, 0, 2}, {3, 1, 2}, {3, 2, 2} }
         )
       )
+    end
+  end
+  describe "each" do
+    it "should yield each of the items in a Matrix to the block" do
+      a = [] of Int32
+      Matrix.new(
+        {1, 2, 3},
+        {4, 5, 6},
+        {7, 8, 9}
+      ).each { |el| a << el }
+      a.should eq([1, 2, 3, 4, 5, 6, 7, 8, 9])
     end
   end
 end

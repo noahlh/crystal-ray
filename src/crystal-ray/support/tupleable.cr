@@ -16,8 +16,16 @@ module Tupleable
       {{ @type }}.new(self.to_tuple * other.to_tuple)
     end
 
+    def abs
+      {{ @type }}.new(self.to_tuple.abs)
+    end
+
     def self.new(input : Tuple)
       {{ @type }}.new(*input)
+    end
+
+    def map
+      {{ @type }}.new( to_tuple.map { |el| yield el })
     end
   end
 end
@@ -30,12 +38,16 @@ module Spacial
       elsif input[3] == 0.0
         Vector.new(input[0], input[1], input[2])
       else
-        input
+        raise Exception.new("w is > 1, so this isn't actually a spacial.")
       end
     end
 
     def to_tuple
       {x, y, z, w}
+    end
+
+    def <=(scalar)
+      to_tuple.all? {|el| el <= scalar}
     end
   end
 end

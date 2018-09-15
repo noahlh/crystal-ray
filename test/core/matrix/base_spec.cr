@@ -1,6 +1,6 @@
 require "../../spec_helper"
 
-describe Matrix do
+describe Matrix::Base do
   describe "initialize" do
     it "creates a arbitrary-sized Matrix from a sequence of tuples" do
       m = Matrix.new(
