@@ -49,5 +49,9 @@ module Spacial
     def <=(scalar)
       to_tuple.all? {|el| el <= scalar}
     end
+
+    def dot(other : Spacial)
+      self.to_tuple.dot(other.to_tuple)
+    end
   end
 end

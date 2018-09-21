@@ -26,26 +26,31 @@ describe Ray do
     it "calculates an intersection of the ray & sphere returns a tuple of t values" do
       r = Ray.new(Point.new(0, 0, -5), Vector.new(0, 0, 1))
       s = Sphere.new
+      r.discriminant(s).should be >= 0
       r.intersect(s).should eq({4, 6})
     end
     it "calculates an intersection @ the top of the sphere" do
       r = Ray.new(Point.new(0, 1, -5), Vector.new(0, 0, 1))
       s = Sphere.new
+      r.discriminant(s).should be >= 0
       r.intersect(s).should eq({5, 5})
     end
     it "calculates an intersection that misses the sphere" do
       r = Ray.new(Point.new(0, 2, -5), Vector.new(0, 0, 1))
       s = Sphere.new
+      r.discriminant(s).should be < 0
       r.intersect(s).should eq(Tuple.new)
     end
     it "calculates an intersection w/ a ray that originates inside the sphere" do
       r = Ray.new(Point.new(0, 0, 0), Vector.new(0, 0, 1))
       s = Sphere.new
+      r.discriminant(s).should be >= 0
       r.intersect(s).should eq({-1, 1})
     end
     it "calculates an intersection w/ a ray that originates in front of the sphere" do
       r = Ray.new(Point.new(0, 0, 5), Vector.new(0, 0, 1))
       s = Sphere.new
+      r.discriminant(s).should be >= 0
       r.intersect(s).should eq({-6, -4})
     end
   end

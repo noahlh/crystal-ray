@@ -20,10 +20,6 @@ struct Vector
     Vector.new(@x / magnitude, @y / magnitude, @z / magnitude)
   end
 
-  def dot(other : Vector)
-    self.to_tuple.dot(other.to_tuple)
-  end
-
   def cross(other : Vector)
     Vector.new(
       @y * other.z - @z * other.y,
