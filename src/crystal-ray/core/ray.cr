@@ -17,7 +17,7 @@ struct Ray
     if discriminant >= 0
       t1 = (-b - Math.sqrt(discriminant)) / (2 * a)
       t2 = (-b + Math.sqrt(discriminant)) / (2 * a)
-      t1 < t2 ? {t1, t2} : {t2, t1}
+      t1 < t2 ? {Intersection.new(t1, sphere), Intersection.new(t2, sphere)} : {Intersection.new(t2, sphere), Intersection.new(t1, sphere)}
     else
       Tuple.new
     end

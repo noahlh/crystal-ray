@@ -23,17 +23,17 @@ describe Ray do
     end
   end
   describe "#intersect" do
-    it "calculates an intersection of the ray & sphere returns a tuple of t values" do
+    it "calculates an intersection of the ray & sphere returns a tuple of intersections" do
       r = Ray.new(Point.new(0, 0, -5), Vector.new(0, 0, 1))
       s = Sphere.new
       r.discriminant(s).should be >= 0
-      r.intersect(s).should eq({4, 6})
+      r.intersect(s).should eq({Intersection.new(4, s), Intersection.new(6, s)})
     end
     it "calculates an intersection @ the top of the sphere" do
       r = Ray.new(Point.new(0, 1, -5), Vector.new(0, 0, 1))
       s = Sphere.new
       r.discriminant(s).should be >= 0
-      r.intersect(s).should eq({5, 5})
+      r.intersect(s).should eq({Intersection.new(5, s), Intersection.new(5, s)})
     end
     it "calculates an intersection that misses the sphere" do
       r = Ray.new(Point.new(0, 2, -5), Vector.new(0, 0, 1))
@@ -45,13 +45,13 @@ describe Ray do
       r = Ray.new(Point.new(0, 0, 0), Vector.new(0, 0, 1))
       s = Sphere.new
       r.discriminant(s).should be >= 0
-      r.intersect(s).should eq({-1, 1})
+      r.intersect(s).should eq({Intersection.new(-1, s), Intersection.new(1, s)})
     end
     it "calculates an intersection w/ a ray that originates in front of the sphere" do
       r = Ray.new(Point.new(0, 0, 5), Vector.new(0, 0, 1))
       s = Sphere.new
       r.discriminant(s).should be >= 0
-      r.intersect(s).should eq({-6, -4})
+      r.intersect(s).should eq({Intersection.new(-6, s), Intersection.new(-4, s)})
     end
   end
 end
