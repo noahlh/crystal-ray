@@ -1,7 +1,15 @@
+require "../support/transformable.cr"
+
 struct Ray
+  include Transformable
   getter origin, direction
 
-  def initialize(@origin : Point, @direction : Vector)
+  def initialize(@origin : Spacial, @direction : Spacial)
+  end
+
+  def initialize(origin : Tuple, direction : Tuple)
+    @origin = Point.new(origin)
+    @direction = Vector.new(direction)
   end
 
   def position(t : Float64)
@@ -9,25 +17,20 @@ struct Ray
   end
 
   def intersect(sphere : Sphere)
-    sphere_to_ray = self.origin - sphere.origin
-    a = self.direction.dot(self.direction)
-    b = 2 * self.direction.dot(sphere_to_ray)
-    c = sphere_to_ray.dot(sphere_to_ray) - 1
-    discriminant = b * b - 4 * a * c
-    if discriminant >= 0
-      t1 = (-b - Math.sqrt(discriminant)) / (2 * a)
-      t2 = (-b + Math.sqrt(discriminant)) / (2 * a)
-      t1 < t2 ? {Intersection.new(t1, sphere), Intersection.new(t2, sphere)} : {Intersection.new(t2, sphere), Intersection.new(t1, sphere)}
+    l = sphere.origin - self.origin
+    tca = l.dot(self.direction)
+    d2 = (l.dot(l)) - (tca ** 2)
+    if d2 > (sphere.radius ** 2) # if d2 > radius2, then the ray misses the sphere and there's no intersection
+      return false
     else
-      Tuple.new
+      thc = Math.sqrt((sphere.radius ** 2) - d2)
+      t1 = tca - thc
+      t2 = tca + thc
+      t1 < t2 ? {Intersection.new(t1, sphere), Intersection.new(t2, sphere)} : {Intersection.new(t2, sphere), Intersection.new(t1, sphere)}
     end
   end
 
-  def discriminant(sphere : Sphere)
-    sphere_to_ray = self.origin - sphere.origin
-    a = self.direction.dot(self.direction)
-    b = 2 * self.direction.dot(sphere_to_ray)
-    c = sphere_to_ray.dot(sphere_to_ray) - 1
-    b * b - 4 * a * c
+  def transform(transform_matrix)
+    Ray.new(transform_matrix * @origin.to_tuple, transform_matrix * @direction.to_tuple)
   end
 end

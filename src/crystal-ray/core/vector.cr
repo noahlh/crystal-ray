@@ -11,20 +11,4 @@ struct Vector
 
   def initialize(@x : Float64 = 0.0, @y : Float64 = 0.0, @z : Float64 = 0.0)
   end
-
-  def magnitude
-    Math.sqrt(@x**2 + @y**2 + @z**2 + @w**2)
-  end
-
-  def normalize
-    Vector.new(@x / magnitude, @y / magnitude, @z / magnitude)
-  end
-
-  def cross(other : Vector)
-    Vector.new(
-      @y * other.z - @z * other.y,
-      @z * other.x - @x * other.z,
-      @x * other.y - @y * other.x
-    )
-  end
 end
