@@ -21,12 +21,14 @@ struct Ray
     tca = l.dot(self.direction)
     d2 = (l.dot(l)) - (tca ** 2)
     if d2 > (sphere.radius ** 2) # if d2 > radius2, then the ray misses the sphere and there's no intersection
-      return false
+      return nil
     else
       thc = Math.sqrt((sphere.radius ** 2) - d2)
       t1 = tca - thc
       t2 = tca + thc
-      t1 < t2 ? {Intersection.new(t1, sphere), Intersection.new(t2, sphere)} : {Intersection.new(t2, sphere), Intersection.new(t1, sphere)}
+      it1 = Intersection.new(t1, sphere)
+      it2 = Intersection.new(t2, sphere)
+      t1 < t2 ? Intersections.new(it1, it2) : Intersections.new(it2, it1)
     end
   end
 

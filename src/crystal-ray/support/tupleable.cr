@@ -8,6 +8,10 @@ module Tupleable
       {{ @type }}.new(self.to_tuple - other.to_tuple)
     end
 
+    def -
+      {{ @type }}.new( to_tuple.map { |el| -el })
+    end
+
     def *(scalar : Float64)
       {{ @type }}.new(self.to_tuple * scalar)
     end
@@ -27,6 +31,8 @@ module Tupleable
     def map
       {{ @type }}.new( to_tuple.map { |el| yield el })
     end
+
+
   end
 end
 

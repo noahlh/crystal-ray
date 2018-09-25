@@ -18,4 +18,8 @@ struct Color
   def to_ppm
     "#{red.round(0).to_i} #{green.round(0).to_i} #{blue.round(0).to_i}"
   end
+
+  def <=(scalar)
+    to_tuple.all? { |el| el <= scalar }
+  end
 end

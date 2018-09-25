@@ -45,4 +45,17 @@ describe Vector do
       (Vector.new(2, 3, 4).cross Vector.new(1, 2, 3)).should eq(Vector.new(1, -2, 1))
     end
   end
+  describe "#reflect" do
+    it "calculates the reflection vector given a normal" do
+      v = Vector.new(1, -1, 0)
+      n = Vector.new(0, 1, 0)
+      v.reflect(n).should eq(Vector.new(1, 1, 0))
+    end
+    it "calculates the reflection off a slanted surface" do
+      sqrt2over2 = Math.sqrt(2)/2
+      v = Vector.new(0, -1, 0)
+      n = Vector.new(sqrt2over2, sqrt2over2, 0)
+      v.reflect(n).should be_close(Vector.new(1, 0, 0), 0.001)
+    end
+  end
 end

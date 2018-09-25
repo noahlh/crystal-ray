@@ -11,4 +11,8 @@ struct Vector
 
   def initialize(@x : Float64 = 0.0, @y : Float64 = 0.0, @z : Float64 = 0.0)
   end
+
+  def reflect(normal : Vector)
+    self - normal * 2 * self.dot(normal)
+  end
 end
