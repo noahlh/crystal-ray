@@ -32,14 +32,14 @@ describe Lighting do
     normal_vector = Vector.new(0, 0, -1)
     light = Pointlight.new(Point.new(0, 10, -10), white)
     lighting = Lighting.new(material, light, position, eye_vector, normal_vector)
-    lighting.color.should be_close(Color.new(0.7364, 0.7364, 0.7364), 0.001)
+    lighting.color.should be_close(Color.new(0.7364, 0.7364, 0.7364), 0.0001)
   end
   it "calculates the color when the eye is in the path of the reflection vector" do
     eye_vector = Vector.new(0, -sqrt2over2, -sqrt2over2)
     normal_vector = Vector.new(0, 0, -1)
     light = Pointlight.new(Point.new(0, 10, -10), white)
     lighting = Lighting.new(material, light, position, eye_vector, normal_vector)
-    lighting.color.should be_close(Color.new(1.6364, 1.6364, 1.6364), 0.001)
+    lighting.color.should be_close(Color.new(1.6364, 1.6364, 1.6364), 0.0001)
   end
   it "calculates the color when the light is behind the surface" do
     eye_vector = Vector.new(0, 0, -1)

@@ -24,4 +24,8 @@ describe Color do
     Color.new(1, 1, 1).normalize.to_tuple.should eq({255, 255, 255})
     Color.new(0, 0.5, 1).normalize.to_tuple.should eq({0, 128, 255})
   end
+  it "clips colors to a max of factor and minimum of 0" do
+    Color.new(1.5, 1.5, 1.5).normalize.to_tuple.should eq({255, 255, 255})
+    Color.new(-0.1, -1.5, -1.0).normalize.to_tuple.should eq({0, 0, 0})
+  end
 end
