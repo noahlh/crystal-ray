@@ -47,19 +47,6 @@ describe Tupleable do
 end
 
 describe Spacial do
-  describe "#from_tuple" do
-    it "should create a point when w = 1" do
-      TestSpacial.new({1.0, 1.0, 1.0, 1.0}).should eq(Point.new(1, 1, 1))
-    end
-    it "should create a vector when w = 0" do
-      TestSpacial.new({1.0, 1.0, 1.0, 0.0}).should eq(Vector.new(1, 1, 1))
-    end
-    it "should throw an exception when w > 1" do
-      expect_raises(Exception) do
-        TestSpacial.new({1.0, 1.0, 1.0, 2.0})
-      end
-    end
-  end
   describe "#to_tuple" do
     it "should create a tuple representation of itself" do
       TestSpacial.new(1, 2, 3, 4).to_tuple.should eq({1, 2, 3, 4})

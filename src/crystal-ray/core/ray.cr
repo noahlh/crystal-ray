@@ -4,7 +4,7 @@ struct Ray
   include Transformable
   getter origin, direction
 
-  def initialize(@origin : Spacial, @direction : Spacial)
+  def initialize(@origin : Point, @direction : Vector)
   end
 
   def initialize(origin : Tuple, direction : Tuple)
